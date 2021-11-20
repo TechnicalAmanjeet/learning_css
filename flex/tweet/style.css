@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 90vw;
+    margin: auto;
+}
+
+header{
+    border: 2px solid blue;
+    display: flex;
+    /* float: left; */
+}
+
+header .profile-thumbnail{
+    display: flex;
+    height: 60px;
+}
+
+header .profile-name{
+    border: 2px solid red;
+    display: flex;
+    /* float: left; */
+    margin-left: 20px;
+}
+
+header .follow-btn{
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin: 0px 0px 0px  auto;
+}
+
+header button{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#inner {
+    margin: 10px 0 10px 0;
+    /* display: flex; */
+    font-size: 25px;
+}
+
+.date{
+    display: block;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+}
+
+footer{
+    border: 2px solid  black;
+    display: flex;
+}
+
+footer .stats{
+    display: flex;
+    margin: 4px 10px 0 0;
+    font-size: 20px;
+}
+
+footer .likes{
+    margin-left: 20px;
+}
+
+footer .cta{
+    margin: auto 0 0 auto;
+}
+
+footer .cta button{
+    border: none;
+    font-size: 20px;
+    margin: 0 6px 0 20px;
+}
