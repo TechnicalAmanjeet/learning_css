@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    /* margin: 50px auto; */
+    display: inline-block;
+}
+
+.box-1{
+    background: linear-gradient(35deg,#CCFFFF,#FFCCCC);
+}
+
+.box-2{
+    background: linear-gradient(135deg, rgb(204, 204, 255),yellow);
+}
+
+.box-3{
+    background: linear-gradient(135deg, rgb(204, 204, 255),red);
+
+}
+.box-4{
+    background: linear-gradient(140deg,rgb(204,204,255),green);
+
+}
+
+.box-5 {
+    background: linear-gradient(35deg,#AABBAA,#CCFFFF);
+}
