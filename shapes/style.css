@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* margin: 20px auto; */
+    width: 100vw;
+    height: 500vh;
+    background-color: aqua;
+    text-align: center;
+}
+
+h1{
+    width: 80vw;
+    background: linear-gradient(35deg,rgb(194, 106, 106),rgb(156, 70, 128),rgb(76, 204, 76));
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 3px 5px white;
+    color: black;
+    box-shadow: 0px 5px 50px 4px blue;
+    margin-bottom: 80px;
+    position: sticky;
+    top: 20px;
+    /* left: 0; */
+}
+
+div{
+    margin: 30px auto;
+    width: 10vw;
+    height: 10vw;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle{
+}
+
+.moon{
+    background: transparent;
+    box-shadow: 25px 10px 0px 10px  wheat;
+    /* transform: skewX(10deg); */
+}

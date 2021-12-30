@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Callection</title>
+
+    <style>
+        body{
+            display: flex;
+            /* float: left; */
+        }
+        .ball {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    /* position: fixed; */
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    border-radius: 50%;
+    float: left;
+  }
+  #ball-1 {
+    left: 20%;
+  }
+  #ball-1:hover{
+      transform: scale(4);
+  }
+  #ball-2 {
+    left: 65%;
+    transform: scale(1.5);
+  }
+    </style>
+</head>
+<body>
+    <div class="ball" id="ball-1"></div>
+    <div class="ball" id="ball-2"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+</body>
+</html>

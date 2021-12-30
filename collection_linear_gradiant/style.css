@@ -2,18 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: red;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./amanjeet.png) center/cover no-repeat fixed;
+}
+/* body{
+    height: 2vh;
+    display: flex;
+} */
+
+h1:nth-child(1){
+    margin-top: 10px;
+    text-align: center;
+}
+
+#body{
+    text-align: center;
+    /* background-color: rebeccapurple; */
 }
 
 div{
     height: 400px;
-    width: 250px;
+    width: 300px;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
     margin: 20px;
-    /* margin: 50px auto; */
+    margin: 50px ;
     display: inline-block;
 }
+
+div h1{
+    margin: 250px 0 20px 0;
+}
+
+
 
 .box-1{
     background: linear-gradient(35deg,#CCFFFF,#FFCCCC);
@@ -35,3 +59,40 @@ div{
 .box-5 {
     background: linear-gradient(35deg,#AABBAA,#CCFFFF);
 }
+
+.box-6 {
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+}
+
+.box-7{
+    width: 100vw;
+    background: url(./amanjeetprofile.jpg) no-repeat fixed;
+}
+
+/* box 8 starts from here */
+.ball {
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    border-radius: 50%;
+  }
+  #ball1 {
+    left: 20%;
+  }
+  #ball2 {
+    left: 65%;
+    transform: scale(1.5);
+  }
+  
